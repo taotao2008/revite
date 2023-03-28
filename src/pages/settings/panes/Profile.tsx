@@ -175,12 +175,12 @@ export const Profile = observer(() => {
             <div className={styles.markdown}>
                 <Markdown size="24" />
                 <h5>
-                    Descriptions support Markdown formatting,{" "}
+                    描述支持Markdown格式，{" "}
                     <a
                         href="https://developers.revolt.chat/markdown"
                         target="_blank"
                         rel="noreferrer">
-                        learn more here
+                        详情点击
                     </a>
                     .
                 </h5>
@@ -202,9 +202,9 @@ export const Profile = observer(() => {
             <LineDivider />
             <Tip>
                 <span>
-                    Want to change your username?{" "}
+                    修改用户名?{" "}
                     <a onClick={() => switchPage("account")}>
-                        Head over to your account settings.
+                        跳转到用户设置页面.
                     </a>
                 </span>
             </Tip>
