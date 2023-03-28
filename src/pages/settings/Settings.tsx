@@ -190,11 +190,7 @@ export default observer(() => {
                     icon: <Desktop size={20} />,
                     title: <Text id="app.settings.pages.native.title" />,
                 },
-                {
-                    id: "experiments",
-                    icon: <Flask size={20} />,
-                    title: <Text id="app.settings.pages.experiments.title" />,
-                },
+
                 {
                     divider: true,
                     category: "revolt",
@@ -202,11 +198,7 @@ export default observer(() => {
                     icon: <Bot size={20} />,
                     title: <Text id="app.settings.pages.bots.title" />,
                 },
-                {
-                    id: "feedback",
-                    icon: <Megaphone size={20} />,
-                    title: <Text id="app.settings.pages.feedback.title" />,
-                },
+
             ]}
             children={
                 <Switch>
@@ -266,7 +258,7 @@ export default observer(() => {
                         <ListUl size={20} />
                         <Text id="app.special.modals.changelogs.title" />
                     </ButtonItem>
-                    <a
+                    {/*<a
                         href="https://github.com/revoltchat"
                         target="_blank"
                         rel="noreferrer">
@@ -283,7 +275,7 @@ export default observer(() => {
                             <Coffee size={20} />
                             <Text id="app.settings.pages.donate.title" />
                         </ButtonItem>
-                    </a>
+                    </a>*/}
                     <LineDivider compact />
                     <ButtonItem
                         onClick={clientController.logoutCurrent}
@@ -292,7 +284,7 @@ export default observer(() => {
                         <LogOut size={20} />
                         <Text id="app.settings.pages.logOut" />
                     </ButtonItem>
-                    <div className={styles.version}>
+                    {/*<div className={styles.version}>
                         <span className={styles.revision}>
                             <a
                                 href={`${REPO_URL}/${GIT_REVISION}`}
@@ -323,7 +315,7 @@ export default observer(() => {
                             API: {client.configuration?.revolt ?? "N/A"}
                         </span>
                         <span>revolt.js: {LIBRARY_VERSION}</span>
-                    </div>
+                    </div>*/}
                 </>
             }
             indexHeader={
