@@ -266,7 +266,7 @@ export default observer(() => {
                         <ListUl size={20} />
                         <Text id="app.special.modals.changelogs.title" />
                     </ButtonItem>
-                    {/*<a
+                    <a
                         href="https://github.com/revoltchat"
                         target="_blank"
                         rel="noreferrer">
@@ -283,7 +283,7 @@ export default observer(() => {
                             <Coffee size={20} />
                             <Text id="app.settings.pages.donate.title" />
                         </ButtonItem>
-                    </a>*/}
+                    </a>
                     <LineDivider compact />
                     <ButtonItem
                         onClick={clientController.logoutCurrent}
@@ -292,7 +292,7 @@ export default observer(() => {
                         <LogOut size={20} />
                         <Text id="app.settings.pages.logOut" />
                     </ButtonItem>
-                    {/*<div className={styles.version}>
+                    <div className={styles.version}>
                         <span className={styles.revision}>
                             <a
                                 href={`${REPO_URL}/${GIT_REVISION}`}
@@ -323,7 +323,7 @@ export default observer(() => {
                             API: {client.configuration?.revolt ?? "N/A"}
                         </span>
                         <span>revolt.js: {LIBRARY_VERSION}</span>
-                    </div>*/}
+                    </div>
                 </>
             }
             indexHeader={
