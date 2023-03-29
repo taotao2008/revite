@@ -26,7 +26,7 @@ export default observer(() => {
             {window.isNative && !window.native.getConfig().frame && (
                 <Titlebar overlay />
             )}
-            <div className={styles.login}>
+            <div className={styles.login} style="text-align:center;">
                 <Helmet>
                     <meta
                         name="theme-color"
