@@ -521,12 +521,12 @@ export const MyBots = observer(() => {
                 <Text id="app.settings.pages.bots.create_bot" />
             </CategoryButton>
             <h5>
-                By creating a bot, you are agreeing to the {` `}
+                创建机器人，同意遵守 {` `}
                 <a
-                    href="https://revolt.chat/aup"
+                    href="https://AiZen.chat"
                     target="_blank"
                     rel="noreferrer">
-                    Acceptable Usage Policy
+                    使用策略
                 </a>
                 .
             </h5>
