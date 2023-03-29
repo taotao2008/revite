@@ -31,7 +31,7 @@ export default function ConfirmDelete() {
                         Your account will be deleted in 7 days.
                         <br />
                         You may contact{" "}
-                        <a href="mailto:contact@revolt.chat">
+                        <a href="mailto:contact@aizen.chat">
                             Revolt support
                         </a>{" "}
                         to cancel the request if you wish.

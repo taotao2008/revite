@@ -197,7 +197,7 @@ export default observer(() => {
                 },*/
                 {
                     divider: true,
-                    category: "revolt",
+                    category: "AIZEN",
                     id: "bots",
                     icon: <Bot size={20} />,
                     title: <Text id="app.settings.pages.bots.title" />,

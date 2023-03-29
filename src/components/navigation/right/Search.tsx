@@ -100,7 +100,7 @@ export function SearchSidebar({ close }: Props) {
                 <SearchBase>
                     <Category>
                         <Error
-                            error={<a onClick={close}>« back to members</a>}
+                            error={<a onClick={close}>« 返回成员列表</a>}
                         />
                     </Category>
                     <Category>
