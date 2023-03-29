@@ -26,8 +26,9 @@ export default observer(() => {
             {window.isNative && !window.native.getConfig().frame && (
                 <Titlebar overlay />
             )}
+            <center>
             <div className={styles.login}>
-                <center>
+
                 <Helmet>
                     <meta
                         name="theme-color"
@@ -122,8 +123,9 @@ export default observer(() => {
                         </a>
                     </div>
                 </div>
-                </center>
+
             </div>
+        </center>
         </>
     );
 });
