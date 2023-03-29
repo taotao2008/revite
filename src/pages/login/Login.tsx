@@ -26,8 +26,7 @@ export default observer(() => {
             {window.isNative && !window.native.getConfig().frame && (
                 <Titlebar overlay />
             )}
-            <div className={styles.login} style="text-align:center;">
-
+            <div className={styles.login}>
                 <Helmet>
                     <meta
                         name="theme-color"
@@ -71,8 +70,8 @@ export default observer(() => {
                             </Route>
                         </Switch>
                     </div>
-                    <div className={styles.loginQR}></div>
-                    </div>
+                    {/*<div className={styles.loginQR}></div>*/}
+                    {/*</div>*/}
                     <div className={styles.bottom}>
                         <div className={styles.links}>
                             <div className={styles.socials}>
@@ -87,7 +86,7 @@ export default observer(() => {
                                     <Twitter size={24} />
                                 </a>*/}
                                 <a
-                                    href="https://www.aizen.chat"
+                                    href="https://aizen.chat/"
                                     target="_blank" rel="noreferrer">
                                     <Mastodon size={24} />
                                 </a>
@@ -116,13 +115,13 @@ export default observer(() => {
                         </div>
                         <a
                             className={styles.attribution}
-                            href="https://unsplash.com"
+                            href="https://unsplash.com/@fakurian"
                             target="_blank" rel="noreferrer">
                             <Text id="general.image_by" />
+                            unsplash.com
                         </a>
                     </div>
                 </div>
-
             </div>
         </>
     );
