@@ -27,6 +27,7 @@ export default observer(() => {
                 <Titlebar overlay />
             )}
             <div className={styles.login} style="text-align:center;">
+                <center>
                 <Helmet>
                     <meta
                         name="theme-color"
@@ -122,6 +123,7 @@ export default observer(() => {
                         </a>
                     </div>
                 </div>
+                </center>
             </div>
         </>
     );
