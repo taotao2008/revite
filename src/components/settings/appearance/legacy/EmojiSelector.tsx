@@ -104,10 +104,10 @@ export function EmojiSelector({ value, setValue }: Props) {
                         <h4>
                             Mutant Remix{" "}
                             <a
-                                href="https://mutant.revolt.chat"
+                                href="https://app.AiZen.chat"
                                 target="_blank"
                                 rel="noreferrer">
-                                (by Revolt)
+                                (by AiZen)
                             </a>
                         </h4>
                     </div>

@@ -190,7 +190,11 @@ export default observer(() => {
                     icon: <Desktop size={20} />,
                     title: <Text id="app.settings.pages.native.title" />,
                 },
-
+                /*{
+                    id: "experiments",
+                    icon: <Flask size={20} />,
+                    title: <Text id="app.settings.pages.experiments.title" />,
+                },*/
                 {
                     divider: true,
                     category: "revolt",
@@ -198,7 +202,11 @@ export default observer(() => {
                     icon: <Bot size={20} />,
                     title: <Text id="app.settings.pages.bots.title" />,
                 },
-
+                /*{
+                    id: "feedback",
+                    icon: <Megaphone size={20} />,
+                    title: <Text id="app.settings.pages.feedback.title" />,
+                },*/
             ]}
             children={
                 <Switch>

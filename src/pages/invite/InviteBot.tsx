@@ -56,7 +56,7 @@ export default function InviteBot() {
                             )}
                         </div>
                     </BotInfo>
-                    <Category>Add to server</Category>
+                    <Category>添加到联邦</Category>
                     <Option>
                         <ComboBox
                             value={server}
@@ -79,7 +79,7 @@ export default function InviteBot() {
                             Add
                         </Button>
                     </Option>
-                    <Category>Add to group</Category>
+                    <Category>添加到群组</Category>
                     <Option>
                         <ComboBox
                             value={group}
