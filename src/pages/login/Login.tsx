@@ -27,6 +27,7 @@ export default observer(() => {
                 <Titlebar overlay />
             )}
             <div className={styles.login}>
+                <center>
                 <Helmet>
                     <meta
                         name="theme-color"
@@ -70,12 +71,12 @@ export default observer(() => {
                             </Route>
                         </Switch>
                     </div>
-                    {/*<div className={styles.loginQR}></div>*/}
-                    {/*</div>*/}
+                    <div className={styles.loginQR}></div>
+                    </div>
                     <div className={styles.bottom}>
                         <div className={styles.links}>
                             <div className={styles.socials}>
-                                <a
+                                {/*<a
                                     href="https://github.com/revoltchat"
                                     target="_blank" rel="noreferrer">
                                     <Github size={24} />
@@ -84,9 +85,9 @@ export default observer(() => {
                                     href="https://twitter.com/revoltchat"
                                     target="_blank" rel="noreferrer">
                                     <Twitter size={24} />
-                                </a>
+                                </a>*/}
                                 <a
-                                    href="https://mastodon.social/@revoltchat"
+                                    href="https://www.aizen.chat"
                                     target="_blank" rel="noreferrer">
                                     <Mastodon size={24} />
                                 </a>
@@ -94,12 +95,12 @@ export default observer(() => {
                             <div className={styles.bullet} />
                             <div className={styles.revolt}>
                                 <a
-                                    href="https://revolt.chat/about"
+                                    href="https://www.aizen.chat/about"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Text id="general.about" />
                                 </a>
-                                <a
+                                {/*<a
                                     href="https://revolt.chat/terms"
                                     target="_blank"
                                     rel="noreferrer">
@@ -110,18 +111,18 @@ export default observer(() => {
                                     target="_blank"
                                     rel="noreferrer">
                                     <Text id="general.privacy" />
-                                </a>
+                                </a>*/}
                             </div>
                         </div>
                         <a
                             className={styles.attribution}
-                            href="https://unsplash.com/@fakurian"
+                            href="https://unsplash.com"
                             target="_blank" rel="noreferrer">
-                            <Text id="general.image_by" /> &lrm;@fakurian &rlm;·
-                            unsplash.com
+                            <Text id="general.image_by" />
                         </a>
                     </div>
                 </div>
+                </center>
             </div>
         </>
     );
