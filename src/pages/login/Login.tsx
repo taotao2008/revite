@@ -119,7 +119,6 @@ export default observer(() => {
                             href="https://unsplash.com/@fakurian"
                             target="_blank" rel="noreferrer">
                             <Text id="general.image_by" />
-                            unsplash.com
                         </a>
                     </div>
                 </div>
