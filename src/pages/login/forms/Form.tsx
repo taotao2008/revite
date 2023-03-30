@@ -144,7 +144,7 @@ export const Form = observer(({ page, callback }: Props) => {
     if (loading) return <Preloader type="spinner" />;
 
     return (
-        <div className={styles.formModal} style="text-align:center;">
+        <div className={styles.formModal}>
             <div className={styles.welcome}>
                 <div className={styles.title}>
                     <img src={WaveSVG} draggable={false} />
