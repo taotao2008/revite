@@ -161,6 +161,7 @@ export default class Settings
                 "appearance:emoji",
                 "appearance:seasonal",
                 "appearance:transparency",
+                "appearance:show_send_button",
             ]),
             theme: this.pullKeys([
                 "appearance:ligatures",

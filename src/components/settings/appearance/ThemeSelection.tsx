@@ -37,7 +37,7 @@ export default function ThemeSelection() {
             {/** Allow users to change base theme */}
             <ShimThemeBaseSelector />
             {/** Provide a link to the theme shop */}
-            <Link to="/discover/themes" replace>
+            {/*<Link to="/discover/themes" replace>
                 <CategoryButton
                     icon={<Brush size={24} />}
                     action="chevron"
@@ -46,7 +46,7 @@ export default function ThemeSelection() {
                     }>
                     <Text id="app.settings.pages.appearance.discover.title" />
                 </CategoryButton>
-            </Link>
+            </Link>*/}
             <hr />
             <h3>
                 <Text id="app.settings.pages.appearance.accent_selector" />
