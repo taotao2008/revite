@@ -16,7 +16,7 @@ export default function AppearanceOptions() {
             <ObservedInputElement
                 type="checkbox"
                 value={() =>
-                    settings.get("appearance:show_send_button") ?? false
+                    settings.get("appearance:show_send_button") ?? true
                 }
                 onChange={(v) => settings.set("appearance:show_send_button", v)}
                 title={
