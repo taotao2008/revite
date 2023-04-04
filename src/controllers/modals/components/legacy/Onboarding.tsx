@@ -39,7 +39,7 @@ export function OnboardingModal({
         <div className={styles.onboarding}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <h1>{"Welcome to Revolt."}</h1>
+                    <h1>{"欢迎使用AiZen人工智能产品"}</h1>
                 </div>
                 <div className={styles.form}>
                     {loading ? (
@@ -47,14 +47,14 @@ export function OnboardingModal({
                     ) : (
                         <>
                             <p>
-                                {"It's time to choose a username."}
+                                {"请设置唯一用户名"}
                                 <br />
                                 {
-                                    "Others will be able to find, recognise and mention you with this name, so choose wisely."
+                                    "其他人将能够通过该名字找到、认出并提及您"
                                 }
                                 <br />
                                 {
-                                    "You can change it at any time in your User Settings."
+                                    ""
                                 }
                             </p>
                             <form
@@ -72,7 +72,7 @@ export function OnboardingModal({
                                     />
                                 </div>
                                 <Button palette="accent">
-                                    {"Looks good!"}
+                                    {"确定"}
                                 </Button>
                             </form>
                         </>
