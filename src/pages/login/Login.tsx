@@ -35,9 +35,9 @@ export default observer(() => {
                 </Helmet>
                 <div className={styles.content}>
                     <div className={styles.nav}>
-                        <a className={styles.logo}>
+                        <a className={styles.logo} href="https://www.aizen.chat/" >
                             {!("native" in window) && (
-                                <img src={wideSVG} draggable={false} />
+                                <img src={wideSVG} draggable={false}/>
                             )}
                         </a>
                         <LocaleSelector />
