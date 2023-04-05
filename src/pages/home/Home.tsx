@@ -111,21 +111,6 @@ export default observer(() => {
                         </h3>
                         <div className={styles.actions}>
                             <a
-                                onClick={() =>
-                                    modalController.push({
-                                        type: "create_group",
-                                    })
-                                }>
-                                <CategoryButton
-                                    action="chevron"
-                                    icon={<PlusCircle size={32} />}
-                                    description={
-                                        <Text id="app.home.group_desc" />
-                                    }>
-                                    <Text id="app.home.group" />
-                                </CategoryButton>
-                            </a>
-                            <a
                                 href="https://www.aizen.chat/"
                                 target="_blank"
                                 rel="noreferrer">
@@ -151,6 +136,22 @@ export default observer(() => {
                                     <Text id="app.home.donate" />
                                 </CategoryButton>
                             </a>
+                            <a
+                                onClick={() =>
+                                    modalController.push({
+                                        type: "create_group",
+                                    })
+                                }>
+                                <CategoryButton
+                                    action="chevron"
+                                    icon={<PlusCircle size={32} />}
+                                    description={
+                                        <Text id="app.home.group_desc" />
+                                    }>
+                                    <Text id="app.home.group" />
+                                </CategoryButton>
+                            </a>
+
                             {/*<Link to="/discover">
                                 <a>
                                     <CategoryButton
