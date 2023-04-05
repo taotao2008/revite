@@ -94,7 +94,13 @@ export default observer(() => {
                             <div className={styles.bullet} />
                             <div className={styles.revolt}>
                                 <a
-                                    href="https://www.aizen.chat/about"
+                                    href="https://www.aizen.chat/"
+                                    target="_blank"
+                                    rel="noreferrer">
+                                    <Text id="general.tos" />
+                                </a>
+                                <a
+                                    href="https://www.aizen.chat/login"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Text id="general.about" />

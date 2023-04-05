@@ -125,6 +125,32 @@ export default observer(() => {
                                     <Text id="app.home.group" />
                                 </CategoryButton>
                             </a>
+                            <a
+                                href="https://www.aizen.chat/"
+                                target="_blank"
+                                rel="noreferrer">
+                                <CategoryButton
+                                    action="external"
+                                    description={
+                                        <Text id="app.home.documentation_desc" />
+                                    }
+                                    icon={<Money size={32} />}>
+                                    <Text id="app.home.documentation" />
+                                </CategoryButton>
+                            </a>
+                            <a
+                                href="https://www.aizen.chat/login"
+                                target="_blank"
+                                rel="noreferrer">
+                                <CategoryButton
+                                    action="external"
+                                    description={
+                                        <Text id="app.home.donate_desc" />
+                                    }
+                                    icon={<Money size={32} />}>
+                                    <Text id="app.home.donate" />
+                                </CategoryButton>
+                            </a>
                             {/*<Link to="/discover">
                                 <a>
                                     <CategoryButton
