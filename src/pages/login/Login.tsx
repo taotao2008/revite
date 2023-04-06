@@ -100,7 +100,7 @@ export default observer(() => {
                                     <Text id="general.tos" />
                                 </a>
                                 <a
-                                    href="https://www.aizen.chat/login"
+                                    href="https://www.aizen.chat/signin"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Text id="general.about" />

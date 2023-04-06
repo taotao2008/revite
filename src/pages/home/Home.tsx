@@ -124,7 +124,7 @@ export default observer(() => {
                                 </CategoryButton>
                             </a>
                             <a
-                                href="https://www.aizen.chat/login"
+                                href="https://www.aizen.chat/signin"
                                 target="_blank"
                                 rel="noreferrer">
                                 <CategoryButton
