@@ -236,13 +236,13 @@ export const Form = observer(({ page, callback }: Props) => {
                 <>
                     <span className={styles.create}>
                         <Text id="login.new" />{" "}
-                        <a href="https://www.aizen.chat/register">
+                        <a href="https://www.aizen.chat/register" target="_blank">
                             <Text id="login.create" />
                         </a>
                     </span>
                     <span className={styles.create}>
                         <Text id="login.forgot" />{" "}
-                        <a href="ahttps://www.aizen.chat/forgot-password">
+                        <a href="https://www.aizen.chat/forgot-password" target="_blank">
                             <Text id="login.reset" />
                         </a>
                     </span>
