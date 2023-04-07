@@ -236,22 +236,22 @@ export const Form = observer(({ page, callback }: Props) => {
                 <>
                     <span className={styles.create}>
                         <Text id="login.new" />{" "}
-                        <Link to="/login/create">
+                        <a href="https://www.aizen.chat/register">
                             <Text id="login.create" />
-                        </Link>
+                        </a>
                     </span>
                     <span className={styles.create}>
                         <Text id="login.forgot" />{" "}
-                        <Link to="/login/reset">
+                        <a href="ahttps://www.aizen.chat/forgot-password">
                             <Text id="login.reset" />
-                        </Link>
+                        </a>
                     </span>
-                    <span className={styles.create}>
+                    {/*<span className={styles.create}>
                         <Text id="login.missing_verification" />{" "}
                         <Link to="/login/resend">
                             <Text id="login.resend" />
                         </Link>
-                    </span>
+                    </span>*/}
                     {!IS_REVOLT && (
                         <>
                             <br />
