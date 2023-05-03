@@ -23,6 +23,8 @@ export function findLanguage(lang?: string): Language {
         }
     }
 
+    lang = Language.CHINESE_SIMPLIFIED;
+
     const code = lang.replace("-", "_");
     const short = code.split("_")[0];
 
