@@ -176,7 +176,7 @@ export const Form = observer(({ page, callback }: Props) => {
                     ) as unknown as JSX.GenericEventHandler<HTMLFormElement>
                 }>
                 {page !== "reset" && (
-                    <label htmlFor="emailadd"><font size="2"> <b>手机号码
+                    <label htmlFor="emailadd"> <b>手机号码
                     <FormField
                         type="phone"
                         name="email"
@@ -187,7 +187,7 @@ export const Form = observer(({ page, callback }: Props) => {
                     />
 
                     </b>
-                    </font>
+
 
                     </label>
 
