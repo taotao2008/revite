@@ -11,7 +11,8 @@ type FieldType =
     | "username"
     | "password"
     | "invite"
-    | "current_password";
+    | "current_password"
+    | "phone";
 
 type Props = Omit<JSX.HTMLAttributes<HTMLInputElement>, "children" | "as"> & {
     type: FieldType;
@@ -69,13 +70,14 @@ export default function FormField({
                                           ? "TooLong"
                                           : undefined,
                               }
-                            : type === "email"
+                            : type === "phone"
                             ? {
                                   required: "RequiredField",
-                                  pattern: {
-                                      value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                                      message: "InvalidEmail",
-                                  },
+                                  /*pattern: {
+                                      /!*value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,*!/
+                                      value: /^1(3\d|4[5-9]|5[0-35-9]|6[2567]|7[0-8]|8\d|9[0-35-9])\d{8}$/i,
+                                      message: "手机格式不正确",
+                                  },*/
                               }
                             : type === "username"
                             ? {

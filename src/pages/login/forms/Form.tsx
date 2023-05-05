@@ -176,12 +176,21 @@ export const Form = observer(({ page, callback }: Props) => {
                     ) as unknown as JSX.GenericEventHandler<HTMLFormElement>
                 }>
                 {page !== "reset" && (
+                    <label htmlFor="emailadd"><font size="2"> <b>手机号码
                     <FormField
-                        type="email"
+                        type="phone"
+                        name="email"
                         register={register}
                         showOverline
                         error={errors.email?.message}
+                        placeholder="请输入手机号"
                     />
+
+                    </b>
+                    </font>
+
+                    </label>
+
                 )}
                 {(page === "login" ||
                     page === "create" ||
